@@ -1,1 +1,1 @@
-console.log("JS file is connected to HTML! Woo!")
+alert("JS file is connected to HTML! Woo!")
