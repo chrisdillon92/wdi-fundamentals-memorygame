@@ -57,6 +57,20 @@ p {
 .name {
 	color: #ff0000;
 }
+.king{
+	background-image: url('http://res.cloudinary.com/mrbrd/image/upload/v1466025294/Hearts_13_ikildb.png');
+	background-size: cover;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+}
+.queen{
+	background-image: url('http://res.cloudinary.com/mrbrd/image/upload/v1466025294/Hearts_12_ddwgq5.png');
+	background-size: cover;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
