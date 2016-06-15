@@ -6,13 +6,15 @@ var card4 = "queen";
 var gameBoard = document.getElementById('game-board');
 var cardsInDeck = 4;
 
-
+var createBoard = function(){
     for(var x = 0; x < cardsInDeck; x++){
         var newCard = document.createElement('div');
         newCard.className = 'card';
         gameBoard.appendChild(newCard);
         console.log(x);
     }
+}
+createBoard();
 
 
 // //user selects two cards
